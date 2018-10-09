@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  course: MyString
+  status: MyString
+  enrolled: 1
+  waiting: 1
+  limit: MyString
+  type: 
+  section_id: MyString
+
+two:
+  course: MyString
+  status: MyString
+  enrolled: 1
+  waiting: 1
+  limit: MyString
+  type: 
+  section_id: MyString
