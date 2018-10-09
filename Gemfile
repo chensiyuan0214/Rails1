@@ -8,11 +8,12 @@ gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
-gem 'bootstrap'
 gem 'json'
 gem 'activerecord-import'
 gem "better_errors"
 gem "pry-rails"
+gem 'bootstrap-sass'
+gem 'friendly_id', '~> 5.2.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
