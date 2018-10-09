@@ -926,3 +926,19 @@ Processing by CoursesController#index as HTML
 Completed 200 OK in 401ms (Views: 374.0ms | ActiveRecord: 13.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-10-08 20:48:28 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#hello as HTML
+  Rendering home/hello.html.erb within layouts/application
+  Rendered home/hello.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 277ms (Views: 268.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subjects" for 127.0.0.1 at 2018-10-08 20:48:35 -0400
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb within layouts/application
+  [1m[36mSubject Load (45.8ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  Rendered subjects/index.html.erb within layouts/application (102.6ms)
+Completed 200 OK in 170ms (Views: 104.6ms | ActiveRecord: 47.6ms)
+
+
