@@ -19,7 +19,7 @@ instructor_file = File.read("db/instructor.json")
 instructor_hash = JSON.parse(instructor_file)
 
 course_hash.each do |row|
-  courses << Course.new(name:row['name'], term: row['term'], code:row['code'], independent_study:row['independent_study'])
+  courses << Course.new(name:row['name'], code:row['code'])
 end
 
 subject_hash.each do |row|

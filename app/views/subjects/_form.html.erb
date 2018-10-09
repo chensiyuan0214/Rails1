@@ -12,15 +12,14 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :subject_id %>
-    <%= form.text_field :subject_id, id: :subject_subject_id %>
-  </div>
-
-  <div class="field">
     <%= form.label :name %>
     <%= form.text_field :name, id: :subject_name %>
   </div>
 
+  <div class="field">
+    <%= form.label :subject_id %>
+    <%= form.text_field :subject_id, id: :subject_subject_id %>
+  </div>
 
   <div class="actions">
     <%= form.submit %>

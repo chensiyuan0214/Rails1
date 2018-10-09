@@ -5,11 +5,9 @@ one:
   last_name: MyString
   email: MyString
   instructor_id: 1
-  type: 
 
 two:
   first_name: MyString
   last_name: MyString
   email: MyString
   instructor_id: 1
-  type: 
